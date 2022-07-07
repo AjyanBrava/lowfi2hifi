@@ -1,13 +1,13 @@
 {
   "dependencies": {
     "autoprefixer": "^10.4.7",
+    "debug": "^4.3.4",
     "minifier": "^0.8.1",
     "minify": "^9.1.0",
     "postcss": "^8.4.14"
   },
   "scripts": {
-    "build:css": "tailwind build static/css/tailwind.css -o static/css/tailwind-output.css",
-    "test": "./node_modules/minifier"
+    "build:css": "tailwind build static/css/tailwind.css -o static/css/tailwind-output.css"
   },
   "devDependencies": {
     "tailwindcss": "^3.1.3"
