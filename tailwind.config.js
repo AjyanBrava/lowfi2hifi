@@ -2,8 +2,8 @@
 module.exports = {
   mode: 'jit',
   content: [
-    '/lowfi2hifi/template/*.html',
-    '/lowfi2hifi/template/**/*.html',
+    '/salttohtml/template/*.html',
+    '/salttohtml/template/**/*.html',
     '/static/**/*.js',
   ],
   theme: {
@@ -26,8 +26,8 @@ module.exports = {
   purge: {
     enabled: true,
     content: [
-      'lowfi2hifi/template/*.html',
-      'lowfi2hifi/template/**/*.html',
+      'salttohtml/template/*.html',
+      'salttohtml/template/**/*.html',
     ],
   },
 }

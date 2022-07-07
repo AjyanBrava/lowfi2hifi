@@ -46,7 +46,7 @@ INSTALLED_APPS = [
     'tailwind',
     'crispy_forms',
     'crispy_tailwind',
-    'lowfi2hifi',
+    'salttohtml',
 ]
 
 TAILWIND_APP_NAME = 'theme'
@@ -66,7 +66,7 @@ ROOT_URLCONF = 'converter.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'lowfi2hifi/template'),],
+        'DIRS': [os.path.join(BASE_DIR, 'salttohtml/template'),],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
