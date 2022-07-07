@@ -12,6 +12,7 @@ re_droplist         = r'\^(?P<text>\s*\w.{1,}\s*)\^'
 re_new_line         = r'\.'
 re_grid_row         = r'\|'
 
+const_PLAIN_TEXT     = 'PLAIN_TEXT'
 const_BUTTON         = 'BUTTON'
 const_RADIO          = 'RADIO'
 const_CHECK_BOX      = 'CHECK_BOX'
