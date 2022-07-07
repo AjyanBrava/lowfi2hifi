@@ -6,7 +6,8 @@
     "postcss": "^8.4.14"
   },
   "scripts": {
-    "build:css": "tailwind build static/css/tailwind.css -o static/css/tailwind-output.css"
+    "build:css": "tailwind build static/css/tailwind.css -o static/css/tailwind-output.css",
+    "postinstall": "./node_modules/minifier"
   },
   "devDependencies": {
     "tailwindcss": "^3.1.3"
