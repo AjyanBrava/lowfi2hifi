@@ -32,7 +32,8 @@ SECRET_KEY = 'django-insecure-!6@lomh^i^znw8*tsl_k+a7vx4p3)7umv-ck!ws^!km96abs2x
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'lowfi2hifi.herokuapp.com'
+    'lowfi2hifi.herokuapp.com',
+    '127.0.0.1'
 ]
 
 
